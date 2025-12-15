@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background: linear-gradient(135deg, rgb(195, 24, 143), #a218c4);
+    background: linear-gradient(135deg, rgba(195, 24, 72, 0.321), #5b053a);
 }
 
 #containment-wrapper {
