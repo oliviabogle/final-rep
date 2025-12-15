@@ -1,27 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
 body {
-background: linear-gradient(to bottom right, #f0f4ff, #d5e1ff);
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(135deg, #ffe259, #ffa751);
 }
+
 #containment-wrapper {
-position: relative;
-height: 400px;
-border: 2px dashed #999;
-border-radius: 10px;
-background: #ffffffaa;
-backdrop-filter: blur(3px);
+    position: relative;
+    height: 400px;
+    border: 3px dashed #333;
+    border-radius: 12px;
+    background: #ffffff;
 }
+
 #doge-meme-pic {
-cursor: grab;
+    height: 100px;
+    cursor: grab;
 }
+
 #doge-meme-pic:active {
-cursor: grabbing;
+    cursor: grabbing;
 }
-.score-box {
-background: #fff;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
+h1, h3 {
+    font-weight: 700;
 }
+
+.card {
+    border-left: 6px solid #ff9800;
+}
+
 .navbar-brand {
-font-size: 18px;
-font-weight: bold;
+    font-weight: bold;
 }
