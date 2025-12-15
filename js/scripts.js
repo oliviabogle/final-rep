@@ -21,10 +21,8 @@ $(function () {
 
         if (pos.left > 300) {
             multiplier = 2;
-            $("#containment-wrapper").css("background", "#e8f5e9");
         } else if (pos.top > 250) {
             multiplier = 3;
-            $("#containment-wrapper").css("background", "#fff3e0");
         } else {
             $("#containment-wrapper").css("background", "#ffffff");
         }
